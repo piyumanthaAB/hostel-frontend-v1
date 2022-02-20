@@ -24,7 +24,7 @@ const Cover = (props) => {
             margin-top: 0;
             z-index: 10000;
             position: absolute;
-            clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+            ${'' /* clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); */}
         }
         &::before{
             position: absolute;
@@ -38,7 +38,7 @@ const Cover = (props) => {
             background: linear-gradient(202deg, rgba(51,155,255,1) 0%, rgba(51,155,255,1) 45%, rgba(42,148,244,1) 56%, rgba(29,101,140,1) 100%);
             ${'' /* background:linear-gradient(#339BFF,#4242425d); */}
             opacity: 0.5;
-            ${'' /* border-bottom-right-radius: 20%; */}
+            border-bottom-right-radius: 20%;
         }
             @media(max-width : 1110px){
                 &{
@@ -52,7 +52,7 @@ const Cover = (props) => {
         const CoverImage = styled.img`
             width: 100%;
             height: 100%;
-            ${'' /* border-bottom-right-radius: 20%; */}
+            border-bottom-right-radius: 20%;
         
         `
     return ( 

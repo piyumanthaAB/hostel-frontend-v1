@@ -11,7 +11,7 @@ export const Div = styled.div`
         background-color: #fff;
         position: relative;
         z-index: 2;
-        clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+        ${'' /* clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%); */}
 
     `
 export const H1 = styled.h1`

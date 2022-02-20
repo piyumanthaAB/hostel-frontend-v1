@@ -73,7 +73,7 @@ export const Container = styled.div`
     background: linear-gradient(202deg, rgba(51,155,255,1) 0%, rgba(51,155,255,1) 45%, rgba(42,148,244,1) 56%, rgba(29,101,140,1) 100%);
     z-index: 1;
     ${'' /* margin: 2% 0 8% 0; */}
-    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+    ${'' /* clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%); */}
     margin-top: -7%;
     padding: 10rem 0 ;
 
@@ -110,8 +110,8 @@ export const Row = styled.div`
 export const Image = styled.img`
   &{  margin: 8px;
       transition: 0.5s ease-out;
-      width: 50% !important;
-      height: 150px !important;
+      width: 100% !important;
+      height: 250px !important;
   }
   &:hover{
     cursor: pointer;

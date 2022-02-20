@@ -124,7 +124,7 @@ export const ContactContainer = styled.div`
 
 export const SubWardensContainer = styled.div`
     display: flex;
-    width: 100%;
+    width: 80%;
     flex-wrap: wrap;
     min-height: 20vh;
     ${'' /* background-color: red; */}
@@ -133,15 +133,15 @@ export const SubWardensContainer = styled.div`
     
 `
 export const SbwarednCard = styled.div`
-    flex: 0 1 27%;
+    flex: 0 1 22%;
     min-height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 5px 20px 3px #339BFF5d;
-    padding: 3rem 2rem;
-    margin: 1rem 0;
+    padding: 1.5rem 2rem;
+    margin: 2rem 0;
 
     ${'' /* background-color: green; */}
 

@@ -72,7 +72,7 @@ export const Text = styled.div`
 `;
 export const Image = styled.img`
     width: 8rem;
-    height: 12rem;
+    height: 11rem;
 `;
 export const H1 = styled.h1`
     font-weight: 700;
