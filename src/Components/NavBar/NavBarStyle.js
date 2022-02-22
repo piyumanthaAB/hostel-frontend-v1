@@ -3,7 +3,7 @@ import { motion }  from 'framer-motion';
 
 export const NavBar=styled(motion.div)`
         margin: 0; 
-        padding: 0;
+        padding: 0 2rem;
         font-family: "Lato", sans-serif;
     `
 export const Nav=styled(motion.nav)`
@@ -77,7 +77,7 @@ export const Logo = styled.img`
         height: 110px;
         position: absolute;
         top: 5%;
-        margin-left:15px;
+        ${'' /* margin-left:3rem; */}
         z-index: 20000000000;
         
     `

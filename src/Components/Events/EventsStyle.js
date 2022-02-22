@@ -7,6 +7,7 @@ export const EventContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 0 0 5rem;
 `
 export const Event = styled.div`
     width: 60%;

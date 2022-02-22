@@ -16,7 +16,7 @@ import img7 from "./../../images/image014.jpg";
 const Gallery = () => {
   return (
     <Container>
-      {/* <Header data-aos="fade-up">Gallery</Header> */}
+      <Header data-aos="fade-up">Gallery</Header>
         <Row>
           <Image src = {img1} data-aos="zoom-in"/>
           <Image src = {img2} data-aos="zoom-in"/>

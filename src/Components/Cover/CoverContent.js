@@ -34,12 +34,14 @@ const CoverContent = (props) => {
     const P = styled.p`
         text-align:center;
         color: #FFF;
-        width:100%;
+        ${'' /* width:80%; */}
+        
         margin-top: 0;
         margin-bottom: 5%;
         font-family: "Lato", sans-serif;
         opacity: 1;
         line-height: 150%;
+        margin: 0 5% auto;
     `
     return ( 
             <Sec data-aos="fade-right">

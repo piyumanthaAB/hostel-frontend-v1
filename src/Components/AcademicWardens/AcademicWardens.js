@@ -46,7 +46,7 @@ const AcademicWardens = () => {
                             </ContactInfo>
                             <ContactInfo>
                             <IconContainer><Icon><HiOutlineMail color={ "#339BFF"}/></Icon></IconContainer>
-                                <ContactContainer>sunanda@gmail.com</ContactContainer>
+                                <ContactContainer>sunandaruh@gmail.com</ContactContainer>
                             </ContactInfo>
                         </Sec1>
                     </SubSec>
@@ -64,11 +64,11 @@ const AcademicWardens = () => {
                             </ContactTitle>
                             <ContactInfo>
                                 <IconContainer><Icon><HiOutlinePhone color={ "#339BFF"}/></Icon></IconContainer>
-                                <ContactContainer>+94777116347</ContactContainer>
+                                <ContactContainer>+94714936125</ContactContainer>
                             </ContactInfo>
                             <ContactInfo>
                             <IconContainer><Icon><HiOutlineMail color={ "#339BFF"}/></Icon></IconContainer>
-                                <ContactContainer>hemalika@gmail.com</ContactContainer>
+                                <ContactContainer>hemalika@chem.ruh.ac.lk</ContactContainer>
                             </ContactInfo>
                         </Sec1>
                     </SubSec>

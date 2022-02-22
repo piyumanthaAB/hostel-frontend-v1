@@ -135,10 +135,10 @@ const SubWardens = () => {
                                         <ConactIconContainer> <HiOutlinePhone color={ "#339BFF"}/> </ConactIconContainer>
                                         <ContactDetailItem>{ warden.mobile}</ContactDetailItem>
                                     </ContactDetailRow>
-                                    <ContactDetailRow>
+                                    {/* <ContactDetailRow>
                                         <ConactIconContainer> <HiOutlineMail color={ "#339BFF"}/> </ConactIconContainer>
                                         <ContactDetailItem>{ warden.email}</ContactDetailItem>
-                                    </ContactDetailRow>
+                                    </ContactDetailRow> */}
                                 </SbwarednCard>
                                
                             )

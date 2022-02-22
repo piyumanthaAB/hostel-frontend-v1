@@ -67,6 +67,7 @@ export const Rule = styled.div`
   font-family: "Lato", sans-serif;
   color: #777;
   opacity: 0.8;
+  letter-spacing: 0.1rem;
 `;
 // export const Divsec = styled.div`
 //         display: flex;

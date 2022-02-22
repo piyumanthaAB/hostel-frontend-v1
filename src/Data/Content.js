@@ -2,15 +2,15 @@
 const content = [
     {
         header: "Welcome to Hostel Management System",
-        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+        desc : "Website to manage accommodations at the University of Ruhuna. "
     },
     {
         header : "Rules & Regulation",
-        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non reiciendis obcaecati, vero id in quo earum odio delectus quos fuga. Aut soluta alias odio, atque molestias et officia dicta molestiae iusto quo excepturi? Facilis eaque eos inventore dolore minus in itaque quos perferendis soluta temporibus dignissimos mollitia voluptates aperiam illum sint consectetur labore, minima officiis aut ipsum iure fugit pariatur! Cupiditate provident labore optio quos a molestiae laboriosam nemo vel aliquid culpa vero voluptatum officia, dolorum tempora ad error?        "
+        desc : "In general, a set of rules and regulations are formulated for residential students to abide by. Students are strictly bound to follow the rules and regulations and that gives benefits to both students and the University. Common conditions and rules are given below for residential students."
     },
     {
         header : "Wardens & Sub-Wardens",
-        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non reiciendis obcaecati, vero id in quo earum odio delectus quos fuga. Aut soluta alias odio, atque molestias et officia dicta molestiae iusto quo excepturi? Facilis eaque eos inventore dolore minus in itaque quos perferendis soluta temporibus dignissimos mollitia voluptates aperiam illum sint consectetur labore, minima officiis aut ipsum iure fugit pariatur! Cupiditate provident labore optio quos a molestiae laboriosam nemo vel aliquid culpa vero voluptatum officia, dolorum tempora ad error?        "
+        desc : "Academic Wardens from the senior academic staff are appointed by the University to be in charge of the maintenance of discipline in the hostels. Moreover,  Sub-Wardens are appointed to monitor and to carry out student activities in hostels."
     }
 ];
 export default content;
@@ -19,7 +19,7 @@ export const images = [
         photo : require("../images/img1.jpg").default
     },
     {
-        photo : require("../images/img2.jpg").default
+        photo : require("../images/uor.jpeg").default
     },
     {
         photo : require("../images/59.jpg").default

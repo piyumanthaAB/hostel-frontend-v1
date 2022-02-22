@@ -12,7 +12,7 @@ const RulesRegulation = () => {
     <RulesContainer>
       <Head data-aos="fade-up">Rules & Regulations</Head>
       <RulesBody>
-        <Desc data-aos="fade-up">In general, a set of <a href={PDF}>rules and regulations</a> are formulated for residential students to abide by.  Students are strictly bound to follow the rules and regulations and that gives benefits to both students and the University. Common conditions and rules are given below for residential students. </Desc>
+        <Desc data-aos="fade-up">In general, a set of <a target={"_blank"} href={PDF}>rules and regulations</a> are formulated for residential students to abide by.  Students are strictly bound to follow the rules and regulations and that gives benefits to both students and the University. Common conditions and rules are given below for residential students. </Desc>
         <Rules data-aos="fade-right"><li>Prior to occupying the room, each student should check the goods in the room and its (working) condition and sign the register. All students occupying the rooms are jointly responsible for the contents of rooms. Any goods given should not be removed from the hostel. Any other goods, though permitted within university premises, should not be admitted to rooms.</li></Rules>
         <Rules data-aos="fade-right"><li>Resident students should occupy the rooms assigned to them and should not change rooms without the permission of the authority .</li></Rules>
         <Rules data-aos="fade-right"><li>Furniture, equipment, lamps, wires, walls doors and windows in the rooms should not be damaged or defaced. Any such damages will be charged from relevant students. </li> </Rules>

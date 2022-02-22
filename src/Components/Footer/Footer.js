@@ -67,8 +67,7 @@ const Footer = () => {
           <FooterRightColumn>
             <HR/>
             <Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eum ea impedit accusamus eius ipsa rerum nemo deserunt similique vitae molestiae, quia possimus dolores blanditiis, sint labore, ad omnis repellat nulla est adipisci? 
-            </Text>
+            The University provides good quality accommodation facilities by its own in-campus large hostel complexes and the others, located in the immediate neighborhood of the main premises.  Student accommodation is administered by the Student Affairs Branch in accordance with the rules and regulations articulated by the University.</Text>
           </FooterRightColumn>
         </FooterSection>
       </SubSection>

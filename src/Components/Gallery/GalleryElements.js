@@ -67,29 +67,34 @@ import styled from "styled-components";
 
 // `
 export const Container = styled.div`
-    padding: 0 5%;
     ${'' /* background-color: #fff; */}
     ${'' /* background-color: #339BFF; */}
-    background: linear-gradient(202deg, rgba(51,155,255,1) 0%, rgba(51,155,255,1) 45%, rgba(42,148,244,1) 56%, rgba(29,101,140,1) 100%);
+    ${'' /* background: linear-gradient(202deg, rgba(51,155,255,1) 0%, rgba(51,155,255,1) 45%, rgba(42,148,244,1) 56%, rgba(29,101,140,1) 100%); */}
     z-index: 1;
     ${'' /* margin: 2% 0 8% 0; */}
     ${'' /* clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%); */}
-    margin-top: -7%;
-    padding: 10rem 0 ;
+    margin-top: 0%;
+    padding: 5rem 2rem 0 ;
 
 
 `
 export const Header = styled.h1`
+margin: 4rem 0;
   text-align: center;
-  font-size: 40px;
   color: #49483E;
   letter-spacing:8px;
   font-weight: bold;
   position: relative;
   left: 0;
+  font-size: 2rem;
   display: inline;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 100;
+  text-transform: uppercase;
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        background: linear-gradient(90deg, rgba(51,155,255,1) 0%, rgba(0,48,255,1) 100%);
+        -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 `
 export const Row = styled.div` 
   padding: 0 4px;

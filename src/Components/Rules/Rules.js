@@ -37,24 +37,18 @@ const Rules = () => {
           management
         </RulesDescription>
         <Rule data-aos="fade-right">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dolore
-          ad ipsam in fugiat odio reiciendis quod temporibus earum facere!
+        Prior to occupying the room, each student should check the goods in the room and its (working) condition and sign the register. All students occupying the rooms are jointly responsible for the contents of rooms. Any goods given should not be removed from the hostel. Any other goods, though permitted within university premises, should not be admitted to rooms
+
         </Rule>
         <Rule data-aos="fade-right">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
-          molestiae magnam laboriosam aut officiis sed impedit excepturi
-          voluptatum 
+        Resident students should occupy the rooms assigned to them and should not change rooms without the permission of the authority .
         </Rule>
         <Rule data-aos="fade-right">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
-          molestiae magnam laboriosam aut officiis sed impedit excepturi
-          voluptatum 
+        Furniture, equipment, lamps, wires, walls doors and windows in the rooms should not be damaged or defaced. Any such damages will be charged from relevant students. 
         </Rule>
         <Rule data-aos="fade-right">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
-          molestiae magnam laboriosam aut officiis sed impedit excepturi
-          voluptatum 
-        </Rule>
+        In any case/emergency, keys of the rooms and other goods are to be personally handed over to the sub-wardens. All personal belongings should be handled according to the instructions given by sub-wardens. </Rule>
+        
       </RulesSection>
       <RulesSection>
         <Button onClick={ScrollToTop} data-aos="fade-right"><Link to = "/RulesandRegulation" className="lin">See More  </Link> <HiArrowNarrowRight color={"#333"} /> </Button>

@@ -7,7 +7,7 @@ export const Div = styled.div`
         align-items: center;
         height: 100%;
         margin-top: 35%;
-        padding: 15rem 0 10rem ;
+        padding: 15rem 0 3rem ;
         background-color: #fff;
         position: relative;
         z-index: 2;
