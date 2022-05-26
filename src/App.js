@@ -14,6 +14,7 @@ import UnderConstruction from './Pages/UnderConstruction';
 import NotFound from './Pages/NotFound';
 import LoginPage from './Pages/LoginPage';
 import ContactUsPage from './Pages/ContactUsPage';
+import AdminLandingPage from './Pages/admin/AdminLandingPage';
 function App() {
   useEffect(() => {
     Aos.init({duration:1000}); 
@@ -52,7 +53,8 @@ function App() {
             </Route>
             <Route exact path="/login">
               <div>
-                <LoginPage/>
+              {/* <LoginPage/> */}
+              <AdminLandingPage/>
               </div>
             </Route>
             <Route  path="*">
